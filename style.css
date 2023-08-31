@@ -1,0 +1,68 @@
+.text {
+  text-align: center;
+}
+
+  
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+}
+.title{
+    color: #ffffff;
+    padding-top: 50px;
+    text-align: center;
+}
+#box{ 
+ text-align: center;
+ justify-content: center;
+ height: 50px;
+margin: 0px 10px 10px 10px;
+  
+}
+#box2{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+}
+input{
+    height: 50px;
+    width: 80px;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.score {
+  position: fixed;
+  top: 20px; 
+  right: 20px; 
+}
+
+.option{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.answer{
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+  width: 10em;
+  height: 3em;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  solid pink;
+    border-radius: 90ex;
+    text-align: center;
+    height: 300px;
+    
+}
+    
